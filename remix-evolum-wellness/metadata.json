@@ -1,0 +1,10 @@
+{
+  "name": "Remix Evolum Wellness",
+  "description": "A meditation and yoga application with progress tracking and multi-language support.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

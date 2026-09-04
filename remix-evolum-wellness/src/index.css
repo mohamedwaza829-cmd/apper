@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-aura-primary: #E2C854;
+  --color-aura-secondary: #FEF9C3;
+  --color-aura-tertiary: #EAB308;
+  --color-aura-neutral: #121212;
+  --color-aura-surface: #0A0A0A;
+  --color-aura-card: #181818;
+  --color-aura-border: #262626;
+  --color-aura-text-primary: #A3A3A3;
+  --color-aura-text-secondary: #EDEDED;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #121212;
+  color: #EDEDED;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Neuform Aura Glow & Utilities */
+.aura-glow {
+  box-shadow: 0 0 24px rgba(226, 200, 84, 0.25);
+}
+
+.aura-glow-subtle {
+  box-shadow: 0 0 15px rgba(226, 200, 84, 0.15);
+}
+
+.aura-glass {
+  background: #181818;
+  border: 1px solid #262626;
+}
+
+.aura-card {
+  background: #181818;
+  border: 1px solid #262626;
+  border-radius: 24px;
+}
+
+/* Hide scrollbar for clean mobile experience */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 40s linear infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
+

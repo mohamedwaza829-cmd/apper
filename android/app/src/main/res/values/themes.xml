@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.EvolumWellness" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/aura_background</item>
+        <item name="android:navigationBarColor">@color/aura_surface</item>
+        <item name="android:windowBackground">@color/aura_background</item>
+    </style>
+</resources>

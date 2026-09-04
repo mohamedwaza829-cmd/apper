@@ -1,6 +1,6 @@
 {
   "name": "Remix Evolum Wellness",
-  "description": "A meditation and yoga application with progress tracking and multi-language support.",
+  "description": "A meditation, yoga, and longevity wellness application with native Android (Kotlin & Jetpack Compose) and Web support.",
   "requestFramePermissions": [
     "microphone"
   ],
